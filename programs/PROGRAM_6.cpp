@@ -7,19 +7,19 @@ void main() {
     printf("Enter percentage: ");
     scanf("%f", &per);
     if(per > 90.0) {
-	printf("Exemplary");
+        printf("Exemplary");
     } else if(per >= 80.0) {
-	printf("Outstanding");
+        printf("Outstanding");
     } else if(per >= 70.0) {
-	printf("First division with distinction");
+        printf("First division with distinction");
     } else if(per >= 60.0) {
-	printf("First division");
+        printf("First division");
     } else if(per >= 50.0) {
-	printf("Second class");
+        printf("Second class");
     } else if(per >= 35.0) {
-	printf("Pass class");
+        printf("Pass class");
     } else {
-	printf("Failed: Re-Appear");
+        printf("Failed: Re-Appear");
     }
     getch();
 }
